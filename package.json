@@ -1,0 +1,16 @@
+{
+  "name": "lira",
+  "version": "1.0.0",
+  "description": "Browser extension that creates links to JIRA from Github",
+  "scripts": {
+    "pack": "web-ext build --overwrite-dest"
+  },
+  "scriptsComments": {
+    "pack": "Packages the extension into a zip file."
+  },
+  "author": "Mitch Birti",
+  "license": "ISC",
+  "devDependencies": {
+    "web-ext": "^7.6.2"
+  }
+}

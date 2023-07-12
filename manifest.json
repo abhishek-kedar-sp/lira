@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"name": "Lira",
+	"version": "1.0",
+	"description": "Adds links to JIRA tickets in GitHub.",
+	"icons": {
+		"48": "icons/border-48.png",
+		"96": "icons/border-96.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://*.github.com/sailpoint/*"],
+			"js": ["github/github.js"],
+			"css": ["github/github.css"]
+		}
+	]
+}

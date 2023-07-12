@@ -1,0 +1,16 @@
+.commit .commit-title a {
+  color: #0366d6;
+}
+
+.lira-link {
+  color: #2f81f7 !important;
+}
+
+.js-issue-row .lira-link {
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 16px;
+}
+.sticky-content .lira-link {
+  padding-right: 0.2rem
+}
